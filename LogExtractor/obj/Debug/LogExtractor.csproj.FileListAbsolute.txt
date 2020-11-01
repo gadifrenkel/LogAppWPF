@@ -1,0 +1,14 @@
+c:\users\gadif\documents\visual studio 2015\Projects\LogExtractor\LogExtractor\bin\Debug\LogExtractor.exe.config
+c:\users\gadif\documents\visual studio 2015\Projects\LogExtractor\LogExtractor\obj\Debug\MainWindow.g.cs
+c:\users\gadif\documents\visual studio 2015\Projects\LogExtractor\LogExtractor\obj\Debug\App.g.cs
+c:\users\gadif\documents\visual studio 2015\Projects\LogExtractor\LogExtractor\obj\Debug\LogExtractor_MarkupCompile.cache
+c:\users\gadif\documents\visual studio 2015\Projects\LogExtractor\LogExtractor\obj\Debug\LogExtractor_MarkupCompile.lref
+c:\users\gadif\documents\visual studio 2015\Projects\LogExtractor\LogExtractor\bin\Debug\LogExtractor.exe
+c:\users\gadif\documents\visual studio 2015\Projects\LogExtractor\LogExtractor\bin\Debug\LogExtractor.pdb
+c:\users\gadif\documents\visual studio 2015\Projects\LogExtractor\LogExtractor\obj\Debug\MainWindow.baml
+c:\users\gadif\documents\visual studio 2015\Projects\LogExtractor\LogExtractor\obj\Debug\LogExtractor.g.resources
+c:\users\gadif\documents\visual studio 2015\Projects\LogExtractor\LogExtractor\obj\Debug\LogExtractor.Properties.Resources.resources
+c:\users\gadif\documents\visual studio 2015\Projects\LogExtractor\LogExtractor\obj\Debug\LogExtractor.csproj.GenerateResource.Cache
+c:\users\gadif\documents\visual studio 2015\Projects\LogExtractor\LogExtractor\obj\Debug\LogExtractor.exe
+c:\users\gadif\documents\visual studio 2015\Projects\LogExtractor\LogExtractor\obj\Debug\LogExtractor.pdb
+C:\Users\gadif\Documents\Visual Studio 2015\Projects\LogExtractor\LogExtractor\obj\Debug\LogExtractor.csprojResolveAssemblyReference.cache

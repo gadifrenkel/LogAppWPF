@@ -1,0 +1,50 @@
+﻿<Window x:Class="LogExtractor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LogExtractor"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Button Grid.Row="0" x:Name="button" Content="Load Logs" HorizontalAlignment="Left" Margin="45,42,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Margin="5,20,0,0">
+                <Label    x:Name="label" Content="RegEx" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
+                <TextBox  x:Name="rexExpTextBox" HorizontalAlignment="Left" Height="23"  TextWrapping="Wrap" Text="TC[0-9]+" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Margin="5,20,0,0" >
+                <RadioButton GroupName="extract" x:Name="radiobutton_extract_before" Content="Extract Before" HorizontalAlignment="Left" VerticalAlignment="Top" Checked="checkBox_Checked" Width="101"/>
+                <RadioButton GroupName="extract" x:Name="radiobutton_extract_after" Content="Extract After" HorizontalAlignment="Left"  VerticalAlignment="Top" Checked="radioBtn_ExtractAfter" Width="101"/>
+                <RadioButton GroupName="extract" x:Name="radiobutton_extract_this" Content="Extract This" HorizontalAlignment="Left"  VerticalAlignment="Top" Checked="checkBox_Checked" Width="101"/>
+                <RadioButton GroupName="extract" x:Name="radiobutton_extract_remove_duplicates" Content="Remove Duplicates" HorizontalAlignment="Left" VerticalAlignment="Top" Checked="checkBox_Checked" Width="138"/>
+            </StackPanel>
+
+        </Grid>
+
+
+        <Button  Grid.Row="2" x:Name="btn_Run" Content="Extract&#xD;&#xA;"  VerticalAlignment="Center" Width="75" RenderTransformOrigin="0.448,2.269" Margin="293,76,149,11" Click="btn_Run_Click" />
+
+        <StackPanel Grid.Row="2" Margin="50,70,149,11" Orientation="Horizontal">
+        <Label x:Name="label1" Content="Count" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="n/a" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="32"/>
+        </StackPanel>
+
+        <Button Grid.Row="2" x:Name="btn_SaveAs" Content="Save As"  VerticalAlignment="Center" Width="75" Margin="395,76,47,11" Click="btn_SaveAs_Click"/>
+
+    </Grid>
+</Window>
